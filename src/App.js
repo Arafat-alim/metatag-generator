@@ -17,7 +17,7 @@ const App = () => {
   });
 
   return (
-    <div className="App-Container">
+    <div className="container mt-5">
       <title>Meta Tag Generator</title>
       <Card style={{ width: "100%" }}>
         <Card.Body>
