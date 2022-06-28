@@ -16,6 +16,8 @@ const App = () => {
     imageUrl: "",
   });
 
+  //useEffect
+  useEffect(() => {}, { metaTagCollection });
   return (
     <div className="container mt-5">
       <title>Meta Tag Generator</title>
@@ -26,6 +28,7 @@ const App = () => {
             metaTagCollection={metaTagCollection}
             setMetaTagCollection={setMetaTagCollection}
           ></MetaTagForms>
+          <GenerateMetaTag />
         </Card.Body>
       </Card>
     </div>
